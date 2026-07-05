@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Shahzad Mureed — Health, Explained | Mental Health Reels</title>
+<meta name="description" content="Short, doctor-led videos on depression and mental health from Dr. Shahzad Mureed — explained in plain Roman Urdu and English. Watch the full Depression Series.">
+<link rel="canonical" href="https://YOUR-DOMAIN-HERE.com/">
+<meta property="og:title" content="Dr. Shahzad Mureed — Health, Explained">
+<meta property="og:description" content="Short, doctor-led videos on depression and mental health — explained in plain Roman Urdu and English.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://YOUR-DOMAIN-HERE.com/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#2A2622;
+    --teal:#173232;
+    --sand:#E9E1D2;
+    --paper:#FBF8F3;
+    --coral:#B96455;
+    --gold:#A9824F;
+    --line: rgba(42,38,34,0.14);
+    --maxw: 1120px;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--sand);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    font-size:16px;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit; text-decoration:none;}
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 28px;}
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12.5px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--teal);
+    opacity:0.75;
+  }
+  h1,h2,h3{font-family:'Newsreader', serif; font-weight:500; letter-spacing:-0.01em;}
+  :focus-visible{outline:2px solid var(--coral); outline-offset:3px;}
+
+  /* ---------- NAV ---------- */
+  header.site{
+    position:sticky; top:0; z-index:50;
+    background:rgba(251,248,243,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:16px 28px; max-width:var(--maxw); margin:0 auto;
+  }
+  .logo{
+    font-family:'Newsreader', serif; font-weight:500; font-size:19px;
+    display:flex; align-items:center; gap:8px;
+  }
+  .logo .dot{width:7px; height:7px; border-radius:50%; background:var(--coral); display:inline-block;}
+  .navlinks{display:flex; gap:28px; font-size:14.5px;}
+  .navlinks a{position:relative; padding:2px 0;}
+  .navlinks a:hover{color:var(--coral);}
+  @media (max-width:640px){ .navlinks{gap:16px; font-size:13px;} }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    padding:88px 0 64px;
+    border-bottom:1px solid var(--line);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero .wrap{position:relative;}
+  .hero h1{
+    font-size:clamp(38px, 6vw, 64px);
+    line-height:1.05;
+    max-width:820px;
+    margin:18px 0 20px;
+  }
+  .hero h1 em{font-style:italic; color:var(--coral);}
+  .hero p.sub{
+    max-width:520px; font-size:17.5px; color:rgba(42,38,34,0.78); margin-bottom:34px;
+  }
+  .cta-row{display:flex; gap:14px; flex-wrap:wrap;}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:13px 22px; font-size:14.5px; font-weight:500;
+    border-radius:3px; border:1px solid var(--ink);
+    transition:transform .15s ease, background .15s ease, color .15s ease;
+  }
+  .btn.primary{background:var(--teal); color:var(--paper); border-color:var(--teal);}
+  .btn.primary:hover{transform:translateY(-1px); background:#0f2323;}
+  .btn.ghost{background:transparent;}
+  .btn.ghost:hover{background:var(--ink); color:var(--paper);}
+
+  /* pulse signature */
+  .pulse-wrap{margin-top:56px; border-top:1px solid var(--line); padding-top:18px;}
+  .pulse-svg{width:100%; height:64px; display:block;}
+  .pulse-path{
+    fill:none; stroke:var(--coral); stroke-width:2;
+    stroke-dasharray:1000; stroke-dashoffset:1000;
+    animation:draw 2.4s ease-out forwards;
+  }
+  @keyframes draw{to{stroke-dashoffset:0;}}
+  .pulse-caption{
+    display:flex; justify-content:space-between; margin-top:6px;
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:0.06em;
+    color:rgba(42,38,34,0.55); text-transform:uppercase;
+  }
+
+  /* ---------- SECTION shared ---------- */
+  section{padding:80px 0;}
+  section.alt{background:var(--paper); border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+  .sec-head{max-width:640px; margin-bottom:48px;}
+  .sec-head h2{font-size:clamp(28px,3.4vw,38px); margin-top:10px;}
+  .sec-head p{color:rgba(42,38,34,0.72); margin-top:12px; font-size:15.5px;}
+
+  /* ---------- ABOUT ---------- */
+  .about-grid{display:grid; grid-template-columns:220px 1fr; gap:48px; align-items:start;}
+  @media (max-width:700px){.about-grid{grid-template-columns:1fr;}}
+  .portrait{
+    width:100%; aspect-ratio:3/4; border-radius:4px;
+    background:linear-gradient(160deg, var(--teal), #2c4f4f);
+    display:flex; align-items:flex-end; padding:14px;
+    color:var(--paper); font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:0.05em;
+  }
+  .about-body p{margin-bottom:14px; font-size:16px; color:rgba(42,38,34,0.85);}
+  .pillars{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); margin-top:40px; border:1px solid var(--line);}
+  @media (max-width:700px){.pillars{grid-template-columns:1fr;}}
+  .pillar{background:var(--paper); padding:26px 22px;}
+  .pillar .num{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--coral); letter-spacing:0.08em;}
+  .pillar h3{font-size:19px; margin:10px 0 8px; font-weight:500;}
+  .pillar p{font-size:14px; color:rgba(42,38,34,0.68);}
+
+  /* ---------- SERIES ---------- */
+  .series-masthead{
+    display:flex; justify-content:space-between; align-items:baseline;
+    border-bottom:2px solid var(--ink); padding-bottom:14px; margin-bottom:6px;
+  }
+  .series-masthead .issue{font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:rgba(42,38,34,0.6);}
+  .episode{
+    display:grid; grid-template-columns:64px 100px 1fr auto; gap:22px; align-items:center;
+    padding:22px 0; border-bottom:1px solid var(--line);
+  }
+  @media (max-width:700px){
+    .episode{grid-template-columns:44px 70px 1fr; }
+    .episode .ep-link{display:none;}
+  }
+  .ep-num{font-family:'Newsreader',serif; font-size:26px; color:var(--coral); font-style:italic;}
+  .ep-thumb{
+    width:100px; height:64px; border-radius:3px;
+    background:repeating-linear-gradient(135deg, var(--teal) 0 6px, #21474730 6px 12px);
+    background-color:var(--teal);
+  }
+  .ep-info h3{font-size:17.5px; font-weight:500; margin-bottom:4px;}
+  .ep-info p{font-size:13.5px; color:rgba(42,38,34,0.62);}
+  .ep-link{font-family:'IBM Plex Mono',monospace; font-size:12.5px; color:var(--teal); border-bottom:1px solid var(--teal); white-space:nowrap;}
+  .ep-link:hover{color:var(--coral); border-color:var(--coral);}
+
+  /* ---------- PLATFORMS ---------- */
+  .platform-row{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line);}
+  @media (max-width:700px){.platform-row{grid-template-columns:1fr;}}
+  .platform{background:var(--sand); padding:30px 24px;}
+  .platform h3{font-size:18px; margin-bottom:6px;}
+  .platform p{font-size:13.5px; color:rgba(42,38,34,0.65); margin-bottom:14px;}
+  .platform a{font-family:'IBM Plex Mono',monospace; font-size:12.5px; text-decoration:underline;}
+
+  /* ---------- CONTACT ---------- */
+  .contact-inner{
+    display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:24px;
+    border-top:1px solid var(--line); padding-top:36px;
+  }
+  .contact-inner h2{font-size:clamp(26px,4vw,40px); max-width:480px;}
+  .contact-cta{display:flex; flex-direction:column; align-items:flex-start; gap:12px;}
+
+  footer{padding:32px 0; font-size:13px; color:rgba(42,38,34,0.55);}
+  .footer-row{display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px;}
+
+  @media (prefers-reduced-motion: reduce){
+    .pulse-path{animation:none; stroke-dashoffset:0;}
+    html{scroll-behavior:auto;}
+  }
+
+  [data-reveal]{opacity:0; transform:translateY(14px); transition:opacity .6s ease, transform .6s ease;}
+  [data-reveal].in{opacity:1; transform:translateY(0);}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <nav>
+    <div class="logo"><span class="dot"></span> Dr. Shahzad Mureed</div>
+    <div class="navlinks">
+      <a href="#about">About</a>
+      <a href="#series">The Series</a>
+      <a href="#reels">Reels</a>
+      <a href="#platforms">Watch</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Medical Awareness, In Plain Words</p>
+    <h1>Depression is common.<br><em>Talking about it clearly</em> shouldn't be rare.</h1>
+    <p class="sub">Short, doctor-led videos on mental health — explained in the mix of Urdu and English people actually speak. No jargon. No stigma. Just what's medically true, said plainly.</p>
+    <div class="cta-row">
+      <a href="#series" class="btn primary">Watch the Depression Series</a>
+      <a href="#platforms" class="btn ghost">Follow along</a>
+    </div>
+
+    <div class="pulse-wrap">
+      <svg class="pulse-svg" viewBox="0 0 1000 64" preserveAspectRatio="none">
+        <path class="pulse-path" d="M0,32 L160,32 L190,10 L215,54 L245,32 L400,32 L430,18 L455,46 L480,32 L1000,32" />
+      </svg>
+      <div class="pulse-caption">
+        <span>Signal, not noise</span>
+        <span>10-part series in production</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="portrait" data-reveal>DR. S. MUREED</div>
+      <div class="about-body" data-reveal>
+        <p class="eyebrow" style="margin-bottom:14px;">About</p>
+        <h2 style="font-size:26px; margin-bottom:14px;">A doctor's take, made for a scroll — not a waiting room.</h2>
+        <p>Dr. Shahzad Mureed makes short-form medical content aimed at closing the gap between what doctors know and what most people are told about their own mental health.</p>
+        <p>Each video is built to be watched in under a minute, understood in one pass, and shared without a second thought — using the same everyday mix of Urdu and English the audience already thinks in.</p>
+        <p><em>[Add a line here about your background, training, or what got you into this — happy to help wordsmith it.]</em></p>
+      </div>
+    </div>
+
+    <div class="pillars">
+      <div class="pillar" data-reveal>
+        <div class="num">01</div>
+        <h3>Clinically accurate</h3>
+        <p>Every claim is something a doctor would stand behind — simplified, never distorted.</p>
+      </div>
+      <div class="pillar" data-reveal>
+        <div class="num">02</div>
+        <h3>Said in real language</h3>
+        <p>Roman Urdu and English, mixed the way people actually talk — not translated, not stiff.</p>
+      </div>
+      <div class="pillar" data-reveal>
+        <div class="num">03</div>
+        <h3>Built for the feed</h3>
+        <p>Short enough to finish, clear enough to remember, honest enough to share.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="series">
+  <div class="wrap">
+    <div class="series-masthead">
+      <div>
+        <p class="eyebrow">Current Series</p>
+        <h2 style="font-size:28px; margin-top:6px;">The Depression Series</h2>
+      </div>
+      <span class="issue">10 Episodes · In Production</span>
+    </div>
+
+    <div class="episodes">
+      <div class="episode" data-reveal>
+        <span class="ep-num">01</span>
+        <div class="ep-thumb"></div>
+        <div class="ep-info"><h3>What depression actually is</h3><p>Clearing up the difference between sadness and the clinical condition.</p></div>
+        <a href="#" class="ep-link">WATCH →</a>
+      </div>
+      <div class="episode" data-reveal>
+        <span class="ep-num">02</span>
+        <div class="ep-thumb"></div>
+        <div class="ep-info"><h3>The signs people miss</h3><p>Symptoms that don't look like "sadness" at all.</p></div>
+        <a href="#" class="ep-link">WATCH →</a>
+      </div>
+      <div class="episode" data-reveal>
+        <span class="ep-num">03</span>
+        <div class="ep-thumb"></div>
+        <div class="ep-info"><h3>Why "just be positive" doesn't work</h3><p>The biology behind why willpower alone isn't the fix.</p></div>
+        <a href="#" class="ep-link">WATCH →</a>
+      </div>
+      <div class="episode" data-reveal>
+        <span class="ep-num">04</span>
+        <div class="ep-thumb"></div>
+        <div class="ep-info"><h3>[Episode title]</h3><p>[Short description]</p></div>
+        <a href="#" class="ep-link">WATCH →</a>
+      </div>
+      <div class="episode" data-reveal>
+        <span class="ep-num">05</span>
+        <div class="ep-thumb"></div>
+        <div class="ep-info"><h3>[Episode title]</h3><p>[Short description]</p></div>
+        <a href="#" class="ep-link">WATCH →</a>
+      </div>
+      <div class="episode" data-reveal>
+        <span class="ep-num">06</span>
+        <div class="ep-thumb"></div>
+        <div class="ep-info"><h3>[Episode title]</h3><p>[Short description]</p></div>
+        <a href="#" class="ep-link">WATCH →</a>
+      </div>
+      <div class="episode" data-reveal>
+        <span class="ep-num">07</span>
+        <div class="ep-thumb"></div>
+        <div class="ep-info"><h3>[Episode title]</h3><p>[Short description]</p></div>
+        <a href="#" class="ep-link">WATCH →</a>
+      </div>
+      <div class="episode" data-reveal>
+        <span class="ep-num">08</span>
+        <div class="ep-thumb"></div>
+        <div class="ep-info"><h3>[Episode title]</h3><p>[Short description]</p></div>
+        <a href="#" class="ep-link">WATCH →</a>
+      </div>
+      <div class="episode" data-reveal>
+        <span class="ep-num">09</span>
+        <div class="ep-thumb"></div>
+        <div class="ep-info"><h3>[Episode title]</h3><p>[Short description]</p></div>
+        <a href="#" class="ep-link">WATCH →</a>
+      </div>
+      <div class="episode" data-reveal style="border-bottom:none;">
+        <span class="ep-num">10</span>
+        <div class="ep-thumb"></div>
+        <div class="ep-info"><h3>Where to get real help</h3><p>What treatment actually looks like, and how to start.</p></div>
+        <a href="#" class="ep-link">WATCH →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reels">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow">From Instagram</p>
+      <h2>Latest reels</h2>
+      <p>Send me the links to 3–6 of your reels and I'll embed the actual videos here instead of this placeholder row.</p>
+    </div>
+    <div class="platform-row">
+      <div class="platform" data-reveal>
+        <h3>Reel 01</h3>
+        <p>[Embed goes here]</p>
+        <a href="https://www.instagram.com/dr_shahzadmureed_" target="_blank" rel="noopener">View on Instagram →</a>
+      </div>
+      <div class="platform" data-reveal>
+        <h3>Reel 02</h3>
+        <p>[Embed goes here]</p>
+        <a href="https://www.instagram.com/dr_shahzadmureed_" target="_blank" rel="noopener">View on Instagram →</a>
+      </div>
+      <div class="platform" data-reveal>
+        <h3>Reel 03</h3>
+        <p>[Embed goes here]</p>
+        <a href="https://www.instagram.com/dr_shahzadmureed_" target="_blank" rel="noopener">View on Instagram →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="platforms">
+  <div class="wrap">
+    <div class="sec-head" data-reveal>
+      <p class="eyebrow">Where to watch</p>
+      <h2>Follow the series</h2>
+      <p>New episodes drop regularly. Pick your platform.</p>
+    </div>
+    <div class="platform-row">
+      <div class="platform" data-reveal>
+        <h3>YouTube</h3>
+        <p>Full episodes, longer explainers.</p>
+        <a href="#">@your-handle →</a>
+      </div>
+      <div class="platform" data-reveal>
+        <h3>Instagram</h3>
+        <p>Reels, quick takeaways, Q&As.</p>
+        <a href="https://www.instagram.com/dr_shahzadmureed_" target="_blank" rel="noopener">@dr_shahzadmureed_ →</a>
+      </div>
+      <div class="platform" data-reveal>
+        <h3>TikTok</h3>
+        <p>Fast cuts of the series highlights.</p>
+        <a href="#">@your-handle →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="contact">
+  <div class="wrap">
+    <div class="contact-inner">
+      <h2>Have a topic you want covered — or a collab in mind?</h2>
+      <div class="contact-cta">
+        <a href="mailto:hello@example.com" class="btn primary">hello@example.com</a>
+        <span style="font-size:12.5px; color:rgba(42,38,34,0.55); font-family:'IBM Plex Mono',monospace;">Replace with your real inbox</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap footer-row">
+    <span>© 2026 Dr. Shahzad Mureed</span>
+    <span>Made for people who scroll past most things — but not this.</span>
+  </div>
+</footer>
+
+<script>
+  const els = document.querySelectorAll('[data-reveal]');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.15 });
+  els.forEach(el => io.observe(el));
+</script>
+
+</body>
+</html>
